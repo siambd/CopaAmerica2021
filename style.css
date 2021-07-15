@@ -320,37 +320,33 @@ main{
 
 
 
- /* -----------meida queries-----
- --------------------- ----------*/
+ /* meida queries */
 
- /* ------------------------------
-   ----------- mobile device-------
- -------------------------------- */
+ /* mobile device */
 
  @media only screen and (max-width:800px) {
-   
-   body{
-    margin-right: -5px;
-    margin-left: -5px;
-    margin-top: 0px;
-   } 
-   nav{
+    body{
+ margin-left:10px;
+  
+    }
+    nav{
         display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     }
-    .left-navigation{
-        display:grid;
-        grid-template-columns: repeat(2, 1fr);
-        margin-left: -150px;
-        
-    }
-    container {
+    /* container {
         width: 100%;
       
+      } */
+      .left-navigation{
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          margin-left: -130px;
       }
-      
+      .right-navigation{
+          margin-right: -90px;
+      }
       .copa-america, .players, .copa-optional,  .r-photos{
                   grid-template-columns: repeat(1, 1fr);
       }
@@ -358,11 +354,13 @@ main{
       .copa-america, .copa-highlight {
         flex-direction: column;
        }
-       .copa-title, .copa-info a{
+       .copa-title  {
         font-size: 15px;
-         text-align: left; 
-         margin-left: -170px;
-        
+        /* text-align: left; */
+        padding-left: 10px;
+     }
+     .copa-info{
+        margin-left: -130px;
      }
      .copa-banner img{
          padding-top: 30px;
@@ -370,35 +368,41 @@ main{
         width: 329px;
         height: 259.17px;
      }
-     /* .copa-highlight{
+     .players{
+         margin-bottom: -150px;
+     }
+     .highlight-title{
+        margin-left: -100px;
+        font-size: 36px;
+     }
+     .highlight-button{
+        margin-left: -255px;
+     }
+     .copa-description{
+        margin-left: -100px;
+     }
+     .copa-highlight{
         display: flex;
         justify-content: center;
         align-items: center;
         margin-bottom: 70px;
-        padding-left: 1px;
+        padding-left: 50px;
         padding-right: 50px;
-    } */
-    .players{
-        margin-bottom: -100px;
     }
-    .highlight-title {
-        font-size: 30px;
-        text-align: left;
-        margin-left: -80px;
-    }
-     .copa-description{
-        text-align: left;
-        
-        margin-left: -80px;
-    } 
     .copa-highlight-details a {
     text-decoration: none;
     background-color: #E02C6D;
     padding: 10px 24px;
     color: #FFFFFF;
     font-size: 16px;
-    margin-left: -240px;
      }
+     .highlight-banner img, .r-photo img{
+            
+        width: 328px;
+        height: 248px;
+
+
+    }
 
      .copa-america-info a {
         text-decoration: none;
@@ -407,26 +411,18 @@ main{
         color: #FFFFFF;
         font-size: 16px;
         font-weight: 500px;
-        margin-left: -239px;
        
       }
-     
-      .prize-title{
-        margin-left: 44px;
-        margin-top: 59px;
-        margin-bottom: 5px;
-      }
+        .prize-title{
+            margin-left: 45px;
+            margin-top: 40px;
+            margin-bottom: 10px;
+        }
       .prizing-ceremony{
         display: grid;
         grid-template-columns:repeat(1,1fr);}
 
-        .highlight-banner img, .r-photo img{
-            
-            width: 328px;
-            height: 248px;
-
-
-        }
+        
         .football-logo img{
             width: 350px;
             height: 150px;
@@ -435,10 +431,9 @@ main{
          .about-football {
             margin-bottom: 150px;
          }
-         .social-icon{
-             margin-left: 10px;
-         }
-
+.social-icon{
+    margin-left: 10px;
+}
 
 
 
