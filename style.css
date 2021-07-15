@@ -1,0 +1,271 @@
+
+/* Body part style  */
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+}
+h1{
+    font-size: 64px;
+}
+.copa-info a {
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500px;  
+  }
+
+  .copa-info a:hover {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    color: tomato;
+  }
+
+
+/*--------------------
+ Header part style  
+----------------------*/
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-link{
+    text-decoration: none;
+    margin-left: 25px;
+    color:#FFFFFF
+}
+
+header{
+    background-color: #2D25A0;
+}
+header:hover {
+    background-color: lightslategrey;   }
+
+.copa-america{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom: 100px ;
+    margin-top: 30px;
+     padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px; 
+}
+.copa-america:hover .copa-banner{
+    transform: rotate(15deg);
+    transition: width 1s ease-out , height 1s ease-out, transform 1s ;
+}
+.copa-info{
+    margin-left: 156px;
+}
+.copa-banner img{
+    height: 556px;
+    width:438;
+}
+.copa-banner{
+    
+    margin-right: 130px;
+}
+
+/*--------------------
+ main part style start 
+ ----------------------*/
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+/*------------------
+ players part style start 
+ ---------------------*/
+
+ .players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+    color: black;
+}
+
+
+.player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 330px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 40px rgba(0, 0, 0, 0.15);
+}
+.player-image img {
+    width: 100%;
+    height: 256px;
+}
+
+.player-name {
+    
+    font-weight: bold;
+    font-size: 28px;
+    color: #18191F;
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+/*------------------
+ players part style ends 
+ ---------------------*/
+
+ /*--------------------
+ optional part start 
+ -------------------- */
+.copa-optional {
+    background-color: white;
+    margin-top: 157px;
+}
+
+.copa-highlight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px ;
+    padding-left: 50px;
+    padding-right: 50px;
+ }
+
+ .copa-highlight-details {
+    width: 50%;
+    padding: 5%;
+ }
+
+ .highlight-title {
+    font-size: 48px;
+      color:  #0A0826;
+      margin-bottom: 8px;
+ }
+
+ .copa-description {
+    color: #6C6C6C;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 24px;
+ }
+
+ .copa-highlight-details a {
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500px;
+ }
+
+ .copa-highlight-details a:hover {
+    background-color: rgb(146, 194, 75);
+    border-radius: 10px;
+    color: tomato;
+ }
+
+
+ .highlight-banner img {
+    width: 567px;
+    height: 427px;
+  }
+ 
+/*--------------------
+ optional part end 
+ -------------------- */
+
+ 
+/* -----------extra part-1 start------ 
+--------------------------------*/
+
+.r-photo img{
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.recent-photograph-section{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    margin-left:20px;
+    justify-content: center;
+    align-content: center;
+}
+.r-photos{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px; 
+}
+ .photo:hover{
+  transform: scale(1.1);
+  transition: transform 1s;
+   
+}
+.r-photo-title{
+    color:black;
+}
+
+/* -------------extra part end -----
+------------------------------------ */
+
+/* ---------extra part 2 style start
+----------------------------- */
+.prizing-ceremony{
+    display: flex;
+    text-align: center;
+    color:black
+  }
+  .prizing-ceremony img{
+    width: 300px;
+    height: 250px;
+    margin-left: 50px;
+    margin-right: 50px;border-radius: 5px;
+  }
+  /* ---------extra part 2 style start--------------
+----------------------------- */
+
+
+ /*--------------------
+ footer part style start 
+ ----------------------*/
+ footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+ }
+ .about-football {
+   margin-bottom: 75px;
+ }
+
+ .football-logo img{
+    width: 483.87px;
+    height: 110px;
+    margin-bottom: 20px;
+ }
+
+ .contact {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+ }
+
+ .contact a {
+     text-decoration: none;
+     font-size: 32px;
+     margin-right: 14px;
+     color: gray;
+     margin:  0px 14p;
+ }
+
+
+ .copyright-text {
+    color: #000000;
+    margin-top: 20px;
+ }
+
+/*--------------------
+ footer part style ends 
+ ----------------------*/
